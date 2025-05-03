@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.9.0",
     "firebase": "^10.3.1",
+    "lodash.debounce": "^4.0.8",
     "mern-estate": "file:..",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
