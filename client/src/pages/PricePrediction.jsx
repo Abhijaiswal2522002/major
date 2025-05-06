@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import EMICalculator from "../components/EMICalculator"; // Assuming EMI calculator is in components
 
 const PricePrediction = () => {
   const [formData, setFormData] = useState({
@@ -72,6 +73,11 @@ const PricePrediction = () => {
           Predicted Price: ₹ {prediction.toLocaleString()}
         </div>
       )}
+
+      {/* EMI Calculator Section */}
+      <div className="mt-10">
+        <EMICalculator />
+      </div>
     </div>
   );
 };

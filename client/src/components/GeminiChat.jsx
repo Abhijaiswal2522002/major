@@ -52,7 +52,7 @@ export default function GimniChat() {
         <div className="w-80 mt-2 bg-white rounded-lg shadow-lg flex flex-col max-h-[400px]">
           {/* Header */}
           <div className="bg-blue-600 text-white px-4 py-2 flex justify-between items-center rounded-t-lg">
-            <span className="font-semibold">GimniChat Assistant</span>
+            <span className="font-semibold">BrickBot</span>
             <FaTimes
               className="cursor-pointer"
               onClick={() => setIsOpen(false)}

@@ -10,8 +10,10 @@ import userRouter from './routes/user.route.js';
 import authRouter from './routes/auth.route.js';
 import listingRouter from './routes/listing.route.js';
 import axios from 'axios';
-import { body, validationResult } from 'express-validator';
-import fs from 'fs';
+// import { body, validationResult } from 'express-validator';
+// import fs from 'fs';
+
+
 
 dotenv.config();
 const app = express();
@@ -48,6 +50,10 @@ app.post('/api/ai', async (req, res) => {
     res.status(500).json({ error: 'Failed to generate AI response', details: error.message });
   }
 });
+
+
+
+
 
 // --- Price Prediction ---
 app.post('/api/price-predict', async (req, res) => {

@@ -57,6 +57,18 @@ export default function Header() {
               Price Prediction
             </li> 
             </Link>
+            {/* <Link to="/chat">
+  <li className='hidden sm:inline text-slate-700 hover:underline'>
+    Chat
+  </li> 
+</Link> */}
+<Link to="/price-trend"> 
+<li className='hidden sm:inline text-slate-700 hover:underline'>
+View Price Trends
+            </li> 
+</Link>
+
+
           <Link to='/about'>
             <li className='hidden sm:inline text-slate-700 hover:underline'>
               About

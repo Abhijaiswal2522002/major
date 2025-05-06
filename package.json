@@ -27,6 +27,7 @@
     "nodemon": "^3.0.1",
     "numpy": "^0.0.1",
     "pandas": "^0.0.3",
-    "python-shell": "^5.0.0"
+    "python-shell": "^5.0.0",
+    "socket.io": "^4.8.1"
   }
 }
